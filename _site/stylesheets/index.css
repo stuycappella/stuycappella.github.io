@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
+#background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("../images/HavingFun.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 35% 25%;
+    -webkit-filter: sepia(50%) grayscale(50%);
+}
+
+#header {
+    width: 600px;
+    height: 80px;
+    padding: 10px;
+    background-color: rgba(52, 152, 219,.5);
+    margin-left: calc(50% - 300px);
+
+}
+#stuyvesant {
+    height: 80px;
+    width: 260px;
+    background-image: url("../images/Stuyvesant.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 35%;
+    float: left;
+}
+#acapella {
+    height: 80px;
+    width: 300px;
+    background-image: url("../images/ACapella.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 35%;
+    float: right;
+}
+
+
