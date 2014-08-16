@@ -1,3 +1,8 @@
+@font-face {
+    font-family: aspire;
+    src: url("../images/Aspire-DemiBold.ttf");
+}
+
 html {
     height: 100%;
     width: 100%;
@@ -6,6 +11,26 @@ html {
 
 body {
     margin: 0px;
+}
+
+h3 {
+    font-family: aspire;
+    font-size: 36px;
+    font-weight: 200;
+    color: #ecf0f1;
+    margin-left: 30px;
+    padding-top: 30px;
+    margin-bottom: -34px;
+    -webkit-filter: drop-shadow(0px 0px 15px #3498db);
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #2c3e50;
+    margin-left: 30px;
+    -webkit-filter: drop-shadow(0px 0px 2px #ecf0f1);
+    font-size: 18px;
 }
 
 #background {
@@ -23,14 +48,15 @@ body {
 }
 
 #header {
+    margin-top: 20px;
     width: 600px;
-    height: 80px;
-    padding: 10px;
-    background-color: rgba(52, 152, 219,.5);
+    height: 40px;
+    /*background-color: rgba(52, 152, 219,.5);*/
     margin-left: calc(50% - 300px);
 
 }
 #stuyvesant {
+    margin-top: -17px;
     height: 80px;
     width: 260px;
     background-image: url("../images/Stuyvesant.png");
@@ -38,8 +64,11 @@ body {
     background-repeat: no-repeat;
     background-position: 35%;
     float: left;
+
+    -webkit-filter: drop-shadow(0px 0px 2px #236ea0);
 }
 #acapella {
+    margin-top: -17px;
     height: 80px;
     width: 300px;
     background-image: url("../images/ACapella.png");
@@ -47,6 +76,28 @@ body {
     background-repeat: no-repeat;
     background-position: 35%;
     float: right;
+
+    -webkit-filter: drop-shadow(0px 0px 2px #236ea0);
 }
+
+#floater-left {
+    width: 175px;
+    height: 375px;
+    margin-top: 75px;
+    background-color: rgba(35, 110, 160,.7);
+}
+
+#body {
+    background-color: rgba(149, 165, 166, 0.5);
+    margin-top: -375px;
+    margin-left: 300px;
+    height: 375px;
+    width: 50%;
+}
+
+
+
+
+
 
 
