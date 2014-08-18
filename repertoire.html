@@ -1,0 +1,14 @@
+---
+layout: base
+title: Music
+---
+
+<h2>Music!</h2>
+
+<ul>
+{% for document in site.data.documents %}
+  <li>
+    <a href="files/{{document.name}}.{{document.format}}"><p>{{ document.name }}</p></a>
+  </li>
+{% endfor %}
+</ul>
